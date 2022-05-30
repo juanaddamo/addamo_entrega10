@@ -24,7 +24,7 @@ body{
 
 /* se agranda la imagen del logo del menu*/
 .imagenLogo:hover{
-    transform: scale(1.1) ;
+    transform: scale(1.1);
 }
 
 /* estilos del main */
@@ -434,7 +434,7 @@ h2{
 
 /* se agranda la imagen del logo de redes sociales */
 .imagenContacto1:hover{
-    transform: scale(1.3) ;
+    transform: scale(1.3);
 }
 
 .imagenContacto2:hover{
