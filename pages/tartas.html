@@ -17,13 +17,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 
     <title>Annie's Bakery</title>
-
 </head>
+
 <body>  
-    
     <!-- header + menu bootstrap -->
     <header>
-        
         <!-- menu con Bootstrap -->
         <nav class="navbar fixed-top navbar-expand-lg border-bottom border-light border-2">
             <div class="container-fluid">
@@ -59,106 +57,110 @@
                     </ul>
                 </div>
             </div>
-          </nav>
-
+        </nav>
     </header>
 
     <!-- main + imagenes clasicas -->
     <main class="estiloTartas">
-
         <!-- titulo de clasicas -->
-        <h5 class="tituloClasica">
-            Tartas Clásicas
-        </h5>
-        
+        <div class="barraClasica">
+            <img class="logoTarta" src="../img/titulotarta1.png" alt="logo tarta">
+            <h5 class="tituloClasica">Tartas Clásicas</h5>
+            <img class="logoTarta" src="../img/titulotarta2.png" alt="logo tarta">
+        </div>
+
         <!-- imagen clasica 1 -->
-        <div class="clasicaUno">
-            <h5> Maracuya pie </h5>
-            <img class="formatoImagen" src="../img/clasica1.jpg" alt="Maracuya pie" width="300" height="300">
-            <p>
-                Masa sablee, rellena de curd de maracuyá y decorada con crema chantilly.
-            </p>
-         </div>
+        <div class="clasicaUno card" style="width: 18.5rem;">
+            <img src="../img/clasica1.jpg" class="card-img-top" alt="maracuya pie">
+            <div class="card-body">
+                <p class="tituloCard">Maracuya pie</p>
+                <p class="card-text">Masa sablee, rellena de curd de maracuyá y decorada con crema chantilly.</p>
+            </div>
+        </div>
             
         <!-- imagen clasica 2 -->
-        <div class="clasicaDos">
-            <h5> Brownie </h5>
-            <img class="formatoImagen" src="../img/clasica2.jpg" alt="Brownie" width="300" height="300">
-            <p>
-                Brownie con nueces, dulce de leche y cubierta con merengue italiano.
-            </p>
+        <div class="clasicaDos card" style="width: 18.5rem;">
+            <img src="../img/clasica2.jpg" class="card-img-top" alt="brownie">
+            <div class="card-body">
+                <p class="tituloCard">Brownie</p>
+                <p class="card-text">Brownie con nueces, dulce de leche y cubierta con merengue italiano.</p>
+            </div>
         </div>
 
         <!-- imagen clasica 3 -->
-        <div class="clasicaTres">
-            <h5> Apple crumble </h5>
-            <img class="formatoImagen" src="../img/clasica3.jpg" alt="Apple crumble" width="300" height="300">
-            <p>
-                Masa sablee, relleno de manzanas caramelizadas y cubierta con crumble crocante.
-            </p>
+        <div class="clasicaTres card" style="width: 18.5rem;">
+            <img src="../img/clasica3.jpg" class="card-img-top" alt="apple crumble">
+            <div class="card-body">
+                <p class="tituloCard">Apple crumble</p>
+                <p class="card-text">Masa sablee, relleno de manzanas caramelizadas y cubierta con crumble crocante.</p>
+            </div>
         </div>
-            
+
         <!-- imagen clasica 4 -->
-        <div class="clasicaCuatro">
-            <h5> Frutillas </h5>
-            <img class="formatoImagen" src="../img/clasica4.jpg" alt="Frutillas" width="300" height="300">
-            <p>
-                Masa sablee, rellena de crema pastelera con crema chantilly y decorada con frutillas naturales.
-            </p>
+        <div class="clasicaCuatro card" style="width: 18.5rem;">
+            <img src="../img/clasica4.jpg" class="card-img-top" alt="tarta de frutillas">
+            <div class="card-body">
+                <p class="tituloCard">Frutillas</p>
+                <p class="card-text">Masa sablee, rellena de crema pastelera con crema chantilly y decorada con frutillas naturales.</p>
+            </div>
         </div>
-            
+
         <!-- imagen clasica 5 -->
-        <div class="clasicaCinco">
-            <h5> Chocolate y naranja </h5>
-            <img class="formatoImagen" src="../img/clasica5.jpg" alt="Chocolate y naranja" width="300" height="300">
-            <p>
-                Masa sablee, rellena de curd de naranja y decorada con crema pastelera de Chocolate.
-            </p>
+        <div class="clasicaCinco card" style="width: 18.5rem;">
+            <img src="../img/clasica5.jpg" class="card-img-top" alt="tarta de chocolate y naranja">
+            <div class="card-body">
+                <p class="tituloCard">Chocolate y naranja</p>
+                <p class="card-text">Masa sablee, rellena de curd de naranja y decorada con crema pastelera de Chocolate.</p>
+            </div>
         </div>
 
         <!-- imagen clasica 6 -->
-        <div class="clasicaSeis">
-            <h5> Cheesecake Oreo </h5>
-            <img class="formatoImagen" src="../img/clasica6.jpg" alt="Cheesecake Oreo" width="300" height="300">
-            <p>
-                Base de Galletitas Oreo, Queso crema con relleno de Oreos y decorada con Crema Chantilly y trozos de Galletitas.
-            </p>
+        <div class="clasicaSeis card" style="width: 18.5rem;">
+            <img src="../img/clasica6.jpg" class="card-img-top" alt="cheesecake oreo">
+            <div class="card-body">
+                <p class="tituloCard">Cheesecake Oreo</p>
+                <p class="card-text">Base de galletitas oreo, queso crema con relleno de oreos y decorada con crema chantilly y trozos de galletitas.</p>
+            </div>
         </div>
-        
+
         <!-- imagen clasica 7 -->
-        <div class="clasicaSiete">
-            <h5> Chocotorta </h5>
-            <img class="formatoImagen" src="../img/clasica7.jpg" alt="Chocotorta" width="300" height="300">
-            <p>
-                La clasica chocotorta para los cumpleaños elaborada con las galletitas Chocolinas.
-            </p>
+        <div class="clasicaSiete card" style="width: 18.5rem;">
+            <img src="../img/clasica7.jpg" class="card-img-top" alt="chocotorta">
+            <div class="card-body">
+                <p class="tituloCard">Chocotorta</p>
+                <p class="card-text">La clasica chocotorta para los cumpleaños elaborada con las galletitas Chocolinas.</p>
+            </div>
         </div>
 
         <!-- imagen clasica 8 -->
-        <div class="clasicaOcho">
-            <h5> Lemon pie </h5>
-            <img class="formatoImagen" src="../img/clasica8.jpg" alt="Lemon pie" width="300" height="300">
-            <p>
-                Masa sablee, rellena de curd de limon y decorada con crema.
-            </p>
+        <div class="clasicaOcho card" style="width: 18.5rem;">
+            <img src="../img/clasica8.jpg" class="card-img-top" alt="lemon pie">
+            <div class="card-body">
+                <p class="tituloCard">Lemon Pie</p>
+                <p class="card-text">Masa sablee, rellena de curd de limon y decorada con merengue italiano.</p>
+            </div>
         </div>
 
         <!-- imagen clasica 9 -->
-        <div class="clasicaNueve">
-            <h5> Tarta de coco </h5>
-            <img class="formatoImagen" src="../img/clasica9.jpg" alt="Tarta de coco" width="300" height="300">
-            <p>
-                Masa sablee, rellena de coco y dulce de leche.
-            </p>
+        <div class="clasicaNueve card" style="width: 18.5rem;">
+            <img src="../img/clasica9.jpg" class="card-img-top" alt="tarta de coco">
+            <div class="card-body">
+                <p class="tituloCard">Tarta de coco</p>
+                <p class="card-text">Masa sablee, rellena de coco y dulce de leche.</p>
+            </div>
         </div>
-
     </main>
 
     <!-- footer -->
     <footer>
-        <p>
+        <div class="imagenContacto">
+            <a href="https://www.facebook.com/anniesbakeryARG" target="_blank"> <img class="imagenContacto1" src="../img/icon_face.png" alt="Facebook" style="width:30px;height:30px;"></style> </a>
+            <a href="https://www.instagram.com/anniesbakery_arg/" target="_blank"> <img class="imagenContacto2" src="../img/icon_ig.png" alt="Instagram" style="width:30px;height:30px;"> </a>
+            <a href="mailto:info@anniesbakery.com.ar" target="_blank"> <img class="imagenContacto3" src="../img/email.png" alt="correo electronico" style="width:30px;height:30px;"> </a>
+        </div>
+        <h6>
             Annie's Bakery © - Todos los derechos reservados - 2022
-        </p>
+        </h6>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->

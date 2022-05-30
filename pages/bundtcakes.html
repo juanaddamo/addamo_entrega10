@@ -17,13 +17,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 
     <title>Annie's Bakery</title>
-
 </head>
+
 <body>  
-    
     <!-- header + menu bootstrap -->
     <header>
-        
         <!-- menu con Bootstrap -->
         <nav class="navbar fixed-top navbar-expand-lg border-bottom border-light border-2">
             <div class="container-fluid">
@@ -59,78 +57,85 @@
                     </ul>
                 </div>
             </div>
-          </nav>
-
+        </nav>
     </header>
 
     <!-- main + titulo + bundtckaes y algo mas -->
     <main class="estiloBundt">
         <!-- titulo bundtcakes -->
-        <h5 class="tituloBundt">
-            Bundtcakes y algo más
-        </h5>
-
+        <div class="barraBundt">
+            <img class="logoTarta" src="../img/titulobundt1.png" alt="logo bundtcake">
+            <h5 class="tituloBundt">Bundtcakes y algo más</h5>
+            <img class="logoTarta" src="../img/titulobundt2.png" alt="logo bundtcake">
+        </div>
+        
+        
         <!-- imagen bundt 1 -->
-        <div class="bundtUno">
-            <h5> Chocolate blanco y arándanos </h5>
-            <img class="formatoImagen" src="../img/bundt1.jpg" alt="Chocolate blanco y arándanos" width="300" height="300">
-            <p>
-                Bundtcake de chocolate blanco y arándanos.
-            </p>
+        <div class="bundtUno card" style="width: 18.5rem;">
+            <img src="../img/bundt1.jpg" class="card-img-top" alt="chocolate blanco y arandanos">
+            <div class="card-body">
+                <p class="tituloCard">Chocolate blanco y arándanos</p>
+                <p class="card-text">Bundtcake de chocolate blanco y arándanos.</p>
+            </div>
         </div>
             
         <!-- imagen bundt 2 -->
-        <div class="bundtDos">
-            <h5> Limón y amapolas </h5>
-            <img class="formatoImagen" src="../img/bundt2.jpg" alt="Limón y amapolas" width="300" height="300">
-            <p>
-                Bundtcake de limón y semillas de amapolas.
-            </p>
+        <div class="bundtDos card" style="width: 18.5rem;">
+            <img src="../img/bundt2.jpg" class="card-img-top" alt="limon y amapolas">
+            <div class="card-body">
+                <p class="tituloCard">Limón y amapolas</p>
+                <p class="card-text">Bundtcake de limón y semillas de amapolas.</p>
+            </div>
         </div>
 
         <!-- imagen bundt 3 -->
-        <div class="bundtTres">
-            <h5> Naranja y chocolate </h5>
-            <img class="formatoImagen" src="../img/bundt3.jpg" alt="Naranja y Chocolate" width="300" height="300">
-            <p>
-                Bundtcake de naranja y chocolate amargo.
-            </p>
+        <div class="bundtTres card" style="width: 18.5rem;">
+            <img src="../img/bundt3.jpg" class="card-img-top" alt="naranja y chocolate">
+            <div class="card-body">
+                <p class="tituloCard">Naranja y chocolate</p>
+                <p class="card-text">Bundtcake de naranja y chocolate semi-amargo.</p>
+            </div>
         </div>
             
         <!-- imagen bundt 4 -->
-        <div class="bundtCuatro">
-            <h5> Chocolate blanco y limón </h5>
-            <img class="formatoImagen" src="../img/bundt4.jpg" alt="Chocolate blanco y limón" width="300" height="300">
-            <p>
-                Bundtcake de chocolate blanco y limón.
-            </p>
+        <div class="bundtCuatro card" style="width: 18.5rem;">
+            <img src="../img/bundt4.jpg" class="card-img-top" alt="chocolate blanco y limon">
+            <div class="card-body">
+                <p class="tituloCard">Chocolate blanco y limón</p>
+                <p class="card-text">Bundtcake de chocolate blanco y limón.</p>
+            </div>
         </div>
-            
+
         <!-- imagen bundt 5 -->
-        <div class="bundtCinco">
-            <h5> Alfajorcitos de maicena </h5>
-            <img class="formatoImagen" src="../img/algo1.jpg" alt="Alfajorcitos de maicena" width="300" height="300">
-            <p>
-                Una docena de los clasicos alfajorcitos de maicena.
-            </p>
+        <div class="bundtCinco card" style="width: 18.5rem;">
+            <img src="../img/algo1.jpg" class="card-img-top" alt="alfajorcitos de maicena">
+            <div class="card-body">
+                <p class="tituloCard">Alfajorcitos de maicena</p>
+                <p class="card-text">Una docena de los clasicos alfajorcitos de maicena.</p>
+            </div>
         </div>
 
         <!-- imagen bundt 6 -->
-        <div class="bundtSeis">
-            <h5> Cookies de vainilla </h5>
-            <img class="formatoImagen" src="../img/algo2.jpg" alt="Cookies de vainilla" width="300" height="300">
-            <p>
-                Una docena de cookies sabor a vainilla.
-            </p>
+        <div class="bundtSeis card" style="width: 18.5rem;">
+            <img src="../img/algo2.jpg" class="card-img-top" alt="cookies de vainilla">
+            <div class="card-body">
+                <p class="tituloCard">Cookies de vainilla</p>
+                <p class="card-text">Una docena de cookies sabor a vainilla.</p>
+            </div>
         </div>
 
     </main>
     
     <!-- footer -->
     <footer>
-        <p>
+        <div class="imagenContacto">
+            <a href="https://www.facebook.com/anniesbakeryARG" target="_blank"> <img class="imagenContacto1" src="../img/icon_face.png" alt="Facebook" style="width:30px;height:30px;"></style> </a>
+            <a href="https://www.instagram.com/anniesbakery_arg/" target="_blank"> <img class="imagenContacto2" src="../img/icon_ig.png" alt="Instagram" style="width:30px;height:30px;"> </a>
+            <a href="mailto:info@anniesbakery.com.ar" target="_blank"> <img class="imagenContacto3" src="../img/email.png" alt="correo electronico" style="width:30px;height:30px;"> </a>
+        </div>
+        <h6>
             Annie's Bakery © - Todos los derechos reservados - 2022
-        </p>
+        </h6>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->
