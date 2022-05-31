@@ -418,6 +418,15 @@ h2{
 
 .formCampo{
     margin: 1rem;
+    padding: .5rem;
+}
+
+.boton{
+    background-color:#d49d81;
+    width: 30%;
+    border-radius: 0.5rem;
+    margin: .2rem;
+    padding: .5rem;
 }
 
 .redesContacto{

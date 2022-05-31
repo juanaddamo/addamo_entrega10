@@ -1,55 +1,21 @@
+// reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 // import
 @import "utilities/variables";
+@import "header";
+@import "footer";
+
 
 // nesting del archivo index.html
-.bodyUno{
+body{
     background-image: url(../img/fondo_annies.png);
     font-family: 'Open Sans';
-    padding-top: 6.5rem;  
-    .navbar{
-        background-color: $color-medio;
-        font-family:'Open Sans';
-        .container-fluid{
-            .navbar-brand{
-            }
-            .imagenLogo{
-                transform: scale(1.1);
-            }
-            .navbar-toggler{
-                .navbar-toggler-icon{
-                }
-            }
-            .collapse{
-                .navbar-nav{
-                    .nav-item{
-                        .nav-link{
-                        }
-                    }
-                    .nav-item{
-                        .nav-link{
-                        }
-                    }
-                    .nav-item{
-                        .nav-link{
-                        }
-                            .dropdown-menu{
-                                    background-color: $color-medio;
-                                    .dropdown-item{
-                                    }
-                                    .dropdown-divider{
-                                    }
-                                    .dropdown-item{
-                                    }
-                            }
-                    }
-                    .nav-item{
-                        .nav-link{
-                        }
-                    }
-                }
-            }
-        }
-    }
+    padding-top: 7rem;
 }
 
 .estiloIndex{
@@ -57,18 +23,12 @@
     grid-template-areas: "saludoUno"
     "parrafoDescriptivo"
     "carousel";
+    grid-template-columns: $medidaMobile;
+    justify-content: center;
+    align-content: center;
     .saludoUno{
         grid-area: saludoUno;
-        text-align: center;
-        margin: 1rem;
-    }
-    .carousel{
-        grid-area: carousel;
-        justify-self: center;
-        width: 100%;
-        padding: .5rem;
-        .d-block {
-        }
+        text-align: center;  
     }
     .parrafoDescriptivo{
         grid-area: parrafoDescriptivo;
@@ -76,29 +36,10 @@
         text-align: center;
         font-size: 1.2rem;
     }
-}
-
-.footerUno{
-    margin: .5rem;
-    font-family: 'Open Sans';
-    background-image: linear-gradient($color-oscuro, $color-claro);
-    text-align: center;
-    align-items: center;
-    color: $color-negro;
-    .imagenContacto{
-        display: flex;
-        justify-content: space-evenly;
-        margin: 1rem;
-        padding: 1rem;
-        .imagenContacto1{
-            transform: scale(1.3);
-        }
-        .imagenContacto2{
-            transform: scale(1.3);
-        }
-        .imagenContacto3{
-            transform: scale(1.3);
-        }
+    .carousel{
+        grid-area: carousel;
+        padding: 0.5rem;
     }
 }
 
+@import "mediaqueries";
