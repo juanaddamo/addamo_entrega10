@@ -1,4 +1,4 @@
-# addamo_entrega09
+# addamo_entrega10
 Project name: Annie's Bakery
 
 ## Table of content
@@ -7,7 +7,7 @@ Project name: Annie's Bakery
 3. [FAQs?]
 
 [General information]
-* Desafio complementario: SEGUNDA ENTREGA DEL PROYECTO FINAL
+* Desafio complementario: APLICANDO SASS
 * Curso: Desarrollo Web
 * Centro de Capacitacion Coderhouse (www.coderhouse.com)
 
@@ -19,5 +19,6 @@ Las tecnologias utiizadas en el proyecto son:
 * [HTML5](https://dev.w3.org/html5/html-author/): Version 5 
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS): Version 3
 * [Bootstrap](https://getbootstrap.com/): Version 5.2
+* [Node.js] (https://nodejs.org/en/): Version 16.15.0
 
 [FAQs]
